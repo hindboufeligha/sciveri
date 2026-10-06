@@ -1,0 +1,44 @@
+
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+
+# Testing/coverage
+.pytest_cache
+.coverage
+htmlcov/
+
+# Type checking/tooling caches
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs/editors
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local data and generated artifacts
+data/*
+!data/README.md
+
+# ML/vector indexes
+models/
+*.faiss
+*.index
+
+# Logs
+*.log
