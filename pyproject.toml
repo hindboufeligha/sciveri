@@ -1,7 +1,13 @@
+[build-system]
+requires = ["setuptools>=84"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "sciveri"
 version = "0.1.0"
 description = "Evidence-Grounded Scientific Research Assistant"
 requires-python = ">=3.13"
-
 dependencies = [] 
+
+[tool.setuptools.packages.find]
+where = ["src"]
